@@ -1,0 +1,115 @@
+
+body {
+
+	font-family: 'PT Sans', sans-serif;
+	z-index: 99;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.header {
+	color: #010101;
+}	
+
+
+.header__icon {
+	font-size: 32px;
+	color: #fff;
+	
+}
+
+.header__title{
+
+	font-size: 35px;
+	color: #fff;
+	margin-left: 30px;
+	/*margin-top: 2px;*/
+	font-family: 'Lobster', cursive;
+
+}
+
+menu{
+	/*margin-top: 10px;*/
+}
+
+.menu__item {
+	/*margin: 10px 57px;*/
+}
+
+.menu__item a{
+	font-size: 32px;
+	color: #fff;
+}
+.icons__item a:hover {
+	text-decoration: none;
+}
+
+.message {
+	
+	margin-top: 50px;
+
+}
+
+.message .form{
+	margin-top: 30px;
+	color: white;
+
+}
+
+#theme {
+	color: #fff;	
+}
+
+#theme::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+#text {
+	color: #fff;
+}
+
+#text::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+#submit:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.form-control:focus {
+	border-color: #fff;
+}
+
+.video {
+	position: fixed;
+  	top: -60px;
+  	min-width: 100%;
+  	min-height: 100%;
+	z-index: -10;
+}
+
+.overlay {
+	display: block;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #1d3242;
+	opacity: 0.4;
+	z-index: -3;
+}
